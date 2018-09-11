@@ -1,6 +1,6 @@
-@prefix: gn: <http://www.geonames.org/ontology#>.
-@prefix: locn: <https://www.w3.org/ns/locn>.
-@prefix: owl:<http://www.w3.org/2002/07/owl#>.
+@prefix gn: <http://www.geonames.org/ontology#>.
+@prefix locn: <https://www.w3.org/ns/locn>.
+@prefix owl:<http://www.w3.org/2002/07/owl#>.
 
 <http//grockproject.github.io/florence.ttl> 
     locn:geographicName "Florence";
