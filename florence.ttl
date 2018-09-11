@@ -4,4 +4,9 @@
 
 <http//grockproject.github.io/florence.ttl> 
     locn:geographicName "Florence";
-    gn:countryCode "IT".
+    gn:countryCode "IT";
+    owl:sameAs <http://d-nb.info/gnd/4017581-9>,
+    owl:sameAs <http://dati.camera.it/ocd/luogo.rdf/firenze_firenze_toscana>,
+    owl:sameAs <https://cs.dbpedia.org/page/Florencie>,
+    owl:differentFrom <http://www.geonames.org/5026980/township-of-florence.html>,
+    skos:broader <http://d-nb.info/gnd/4060485-8>.
