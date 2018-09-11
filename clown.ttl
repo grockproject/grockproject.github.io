@@ -1,9 +1,9 @@
-@prefix: foaf: <http://xmlns.com/foaf/0.1/>.
-@prefix: dcterms: <http://purl.org/dc/terms/>.
-@prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
-@prefix: crm: <http://www.cidoc-crm.org/cidoc-crm/>.
-@prefix: prv: <http://trdf.sourceforge.net/provenance/ns.html>.
-@prefix: owl:<http://www.w3.org/2002/07/owl#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix prv: <http://trdf.sourceforge.net/provenance/ns.html>.
+@prefix owl:<http://www.w3.org/2002/07/owl#>.
 
 
 <http://grockproject.github.io/clown.ttl>
