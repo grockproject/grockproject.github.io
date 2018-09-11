@@ -1,12 +1,13 @@
 @prefix gn: <http://www.geonames.org/ontology#>.
 @prefix locn: <https://www.w3.org/ns/locn>.
 @prefix owl:<http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/TR/2009/REC-skos-reference-20090818/>.
 
 <http//grockproject.github.io/florence.ttl> 
     locn:geographicName "Florence";
     gn:countryCode "IT";
-    owl:sameAs <http://d-nb.info/gnd/4017581-9>,
-    owl:sameAs <http://dati.camera.it/ocd/luogo.rdf/firenze_firenze_toscana>,
-    owl:sameAs <https://cs.dbpedia.org/page/Florencie>,
-    owl:differentFrom <http://www.geonames.org/5026980/township-of-florence.html>,
+    owl:sameAs <http://d-nb.info/gnd/4017581-9>;
+    owl:sameAs <http://dati.camera.it/ocd/luogo.rdf/firenze_firenze_toscana>;
+    owl:differentFrom <http://www.geonames.org/5026980/township-of-florence.html>;
+    owl:sameAs <https://cs.dbpedia.org/page/Florencie>;
     skos:broader <http://d-nb.info/gnd/4060485-8>.
