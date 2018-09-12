@@ -3,6 +3,7 @@
 @prefix person: <http://www.w3.org/ns/person#>.
 @prefix core: <http://www.bbc.co.uk/ontologies/coreconcepts>.
 @prefix owl:<http://www.w3.org/2002/07/owl#>.
+@prefix wn:<http://www.w3.org/2006/03/wn/wn20/schema/>.
 
 
 <http://grockproject.github.io/suzy-prim.ttl> 
@@ -16,4 +17,5 @@
     dcterms:relation <http://grockproject.github.io/farewell-mister-grock.ttl>;
     foaf:knows <http://viaf.org/viaf/100270023>;
     owl:sameAs <http://yago-knowledge.org/resource/Suzy_Prim>;
-    owl:sameAs <http://wikidata.org/entity/Q459535>.
+    owl:sameAs <http://wikidata.org/entity/Q459535>;
+    wn:hyponymOf <http://dbpedia.org/ontology/person>.
