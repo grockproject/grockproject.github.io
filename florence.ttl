@@ -3,7 +3,7 @@
 @prefix owl:<http://www.w3.org/2002/07/owl#>.
 @prefix wn: <http://www.w3.org/2006/03/wn/wn20/schema/>.
 
-<http//grockproject.github.io/florence.ttl> 
+<http://grockproject.github.io/florence.ttl> 
     locn:geographicName "Florence";
     gn:countryCode "IT";
     owl:sameAs <http://d-nb.info/gnd/4017581-9>;
