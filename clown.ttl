@@ -4,6 +4,7 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
 @prefix prv: <http://trdf.sourceforge.net/provenance/ns.html>.
 @prefix owl:<http://www.w3.org/2002/07/owl#>.
+@prefix wn: <http://www.w3.org/2006/03/wn/wn20/schema/>.
 
 
 <http://grockproject.github.io/clown.ttl>
@@ -12,7 +13,8 @@
     foaf:topic 'A comic performer, as in a circus, theatrical production';
     crm:hasType 'Concept';
     prv:performedBy <http://viaf.org/viaf/100270023>;
-    dcterms:Location 'Olympia Theatre';
+    dcterms:location 'Olympia Theatre';
     dcterms:date '24/12/1919';
     owl:sameAs <http://d-nb.info/gnd/4010309-2>;
-    owl:differentFrom <http://dbpedia.org/page/Clowne>.
+    owl:differentFrom <http://dbpedia.org/page/Clowne>
+    wn:hypernymOf <http://dbpedia.org/ontology/Comedian>
