@@ -16,5 +16,5 @@
     dcterms:location 'Olympia Theatre';
     dcterms:date '24/12/1919';
     owl:sameAs <http://d-nb.info/gnd/4010309-2>;
-    owl:differentFrom <http://dbpedia.org/page/Clowne>;
-    wn:hyponymOf <http://dbpedia.org/ontology/Comedian>.
+    owl:differentFrom <http://yago-knowledge.org/resource/Clowne>;
+    wn:hyperonymOf <http://viaf.org/viaf/100270023>.
