@@ -18,4 +18,4 @@
     foaf:knows <http://viaf.org/viaf/100270023>;
     owl:sameAs <http://yago-knowledge.org/resource/Suzy_Prim>;
     owl:sameAs <http://wikidata.org/entity/Q459535>;
-    wn:hyponymOf <http://dbpedia.org/ontology/person>.
+    wn:hyponymOf <http://dbpedia.org/ontology/Actor>.
