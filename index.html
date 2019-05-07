@@ -1,0 +1,1439 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>grock:Project</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- css -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300,700,800" rel="stylesheet" media="screen">
+
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="css/style.css" rel="stylesheet" media="screen">
+  <link href="color/default.css" rel="stylesheet" media="screen">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle nav</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <!-- Logo text or image -->
+        <a class="navbar-brand" href="index.html">grock:P</GrockProject></a>
+
+      </div>
+      <div class="navigation collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+          <li class="current"><a href="#domain">Domain</a></li>
+          <li><a href="#er">E/R Model</a></li>
+          <li><a href="#items">Items</a></li>
+          <li><a href="#alignment">Alignment</a></li>
+          <li><a href="#theoretical">Theoretical Model</a></li>
+          <li><a href="#conceptual">Conceptual Model</a></li>
+          <li><a href="#description">Data Description</a></li>
+          <li><a href="#rdf">RDF</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- intro area -->
+  <section id="intro">
+    <div class="intro-container">
+      <div id="introCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+
+        <div class="carousel-inner" role="listbox">
+
+          <!-- Slide 1 -->
+          <div class="item active">
+            <div class="carousel-background"><img src="img/grockintro.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animated fadeInDown">grock:Project</h2>
+                <p class="animated fadeInUp">«Io sono il risultato di mezzo secolo di osservazione e di ostinazione, del desiderio di perfezionare
+                ciò che era già perfetto. Sono convinto di esserci riuscito.»</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Domain -->
+  <section id="domain" class="home-section bg-gray">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>The Domain</h2>
+            <div class="heading-line"></div>
+            <p>Subject of the project, intentions and goals.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row wow fadeInUp">
+        <div class="col-md-6 about-img">
+          <img src="img/grockdomain.jpg" alt="">
+          <div class="caption">Figure 1. Charles, Grock... or both?</div>
+        </div>
+
+        <div class="col-md-6 content">
+          <h2>We chose the clown Grock as the subject of our project.</h2>
+          <h3>Grock is a fictional character created and played by Charles Adrien Wettach, a versatile artist and entertainer.</h3>
+          <p>
+            Our idea revolves around two main premises:
+            <ul>
+              <li>the representation of Wettach's versatility through the choice of certain items, created by the artist itself, and others, created by some other people;</li>
+              <li>the distinction between the person (Charles Adrien Wettach) and the character (Grock), for two main reasons: first, because Grock can be considered, from a certain point of view, a piece of work created by Wettach; secondliy, since years before his death Wettach decided to hang up the mask of Grock and retire to private life, we can safely assume, from a conceptual and modelling standpoint, that the two did not always coexist with each other.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- E/R MODEL -->
+  <section id="er" class="home-section bg-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>E/R Model</h2>
+            <div class="heading-line"></div>
+            <p>Explanation of our idea through an Entity-Relationship model.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <img src="img/er_model.png" class="img-responsive center-block" />
+          <div class="caption">Figure 2. E/R model showing the relationships between Charles Adrien Wettach, Grock, the ten 
+            objects we chose and the metadata we are interested in. </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Items -->
+  <section id="items" class="home-section bg-gray">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>The Items</h2>
+            <div class="heading-line"></div>
+            <p>The items we selected and their respective metadata analyses.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 puppi">
+          <a href="pdf/Au-revoir Paree.pdf" target="_blank">
+            <img src="img/aurevoirpareethumb.jpg" class="image img-thumbnail">
+              <div class="lolli">
+                <div class="image-text">Metadata Analysis</div>
+              </div>
+          </a>
+        </div>
+        <div class="col-md-8">
+          <table class="table table-bordered">
+            <tbody>
+              <tr>
+                <th scope="row">Title</th>
+                <td>Au-revoir Paree</td>
+              </tr>
+              <tr>
+                <th scope="row">Resource link</th>
+                <td><a href="https://www.loc.gov/resource/ihas.200004028.0?st=gallery" target="_blank">LINK</a></td>
+              </tr>
+              <tr>
+                <th scope="row">Object type</th>
+                <td>Music sheet</td>
+              </tr>
+              <tr>
+                <th scope="row">Provider</th>
+                <td>Library of Congress</td>
+              </tr>
+              <tr>
+                <th scope="row">Schema</th>
+                <td>MODS</td>
+              </tr>
+              <tr>
+                <th scope="row">Metadata Analysis</th>
+                <td>Hover on the image or <a href="pdf/Au-revoir Paree.pdf" target="_blank">HERE</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="row top-buffer">
+        <div class="col-md-4 puppi">
+          <a href="pdf/La mia carriera da clown.pdf" target="_blank">
+            <img src="img/vitadaclownthumb.jpg" alt="" class="image img-thumbnail">
+              <div class="lolli">
+                <div class="image-text">Metadata Analysis</div>
+              </div>
+          </a>
+        </div>
+        <div class="col-md-8">
+          <table class="table table-bordered">
+            <tbody>
+                <tr>
+                  <th scope="row">Title</th>
+                  <td>La mia carriera di clown</td>
+                </tr>
+                <tr>
+                  <th scope="row">Resource link</th>
+                  <td><a href="https://opac.sbn.it/opacsbn/opaclib?rpnlabel=+Soggetti+%3D+CFIC173863+&totalResult=1&nentries=1&resultForward=opac%2Ficcu%2Ffull.jsp&select_db=solr_iccu&do_cmd=show_cmd&searchForm=opac%2Ficcu%2Ferror.jsp&rpnquery=%2540attrset%2Bbib-1%2B%2B%2540attr%2B1%253D8021%2B%2540attr%2B4%253D1%2B%2522CFIC173863%2522&db=solr_iccu&saveparams=false&&fname=none&from=1" target="_blank">LINK</a></td>
+                </tr>
+                <tr>
+                  <th scope="row">Object type</th>
+                  <td>Book</td>
+                </tr>
+                <tr>
+                  <th scope="row">Provider</th>
+                  <td>ICCU</td>
+                </tr>
+                <tr>
+                  <th scope="row" rowspan="2">Schema</th>
+                  <td>ISBD</td>
+                </tr>
+                <tr>
+                  <td>MARC21</td>
+                </tr>
+                <tr>
+                  <th scope="row">Metadata Analysis</th>
+                  <td>Hover on the image or <a href="pdf/La mia carriera da clown.pdf">HERE</a></td>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+      </div>
+
+      <div class="row top-buffer">  
+        <div class="col-md-4 puppi">
+          <a href="pdf/Clown_ readings in theatre practice.pdf" target="_blank">
+            <img src="img/clownreadingsthumb.jpg" alt="" class="image img-thumbnail">
+              <div class="lolli">
+                <div class="image-text">Metadata Analysis</div>
+              </div>
+          </a>
+        </div>
+        <div class="col-md-8">
+            <table class="table table-bordered">
+              <tbody>
+                  <tr>
+                    <th scope="row">Title</th>
+                    <td>Clown: readings in theatre practice</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Resource link</th>
+                    <td><a href="https://www.worldcat.org/title/clown-readings-in-theatre-practice/oclc/843034340&referer=brief_results" target="_blank">LINK</a></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Object type</th>
+                    <td>Book</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Provider</th>
+                    <td>WorldCat</td>
+                  </tr>
+                  <tr>
+                    <th scope="row" rowspan="2">Schema</th>
+                    <td>ISBD</td>
+                  </tr>
+                  <tr>
+                    <td>RDA</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Metadata Analysis</th>
+                    <td>Hover on the image or <a href="pdf/Clown_ readings in theatre practice.pdf">HERE</a></td>
+                  </tr>
+                </tbody>
+              </table>
+          </div>
+      </div>
+
+      <div class="row top-buffer">
+        <div class="col-md-4 puppi">
+            <a href="pdf/Etude de Grock - Clown.pdf" target="_blank">
+              <img src="img/etudedegrockthumb.jpg" alt="" class="image img-thumbnail">
+                <div class="lolli">
+                  <div class="image-text">Metadata Analysis</div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-8">
+            <table class="table table-bordered">
+              <tbody>
+                  <tr>
+                    <th scope="row">Title</th>
+                    <td>Etude de Grock - Clown</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Resource link</th>
+                    <td><a href="https://wayback.archive-it.org/3340/20170930000028/https://americanart.si.edu/artwork/etude-de-grock--clown-10197" target="_blank">LINK</a></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Object type</th>
+                    <td>Artwork</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Provider</th>
+                    <td>Smithsonian American Art Museum</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Schema</th>
+                    <td>CDWA</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Metadata Analysis</th>
+                    <td>Hover on the image or <a href="pdf/Etude de Grock - Clown.pdf">HERE</a></td>
+                  </tr>
+                </tbody>
+              </table>
+          </div>
+      </div>
+
+      <div class="row top-buffer">
+        <div class="col-md-4 puppi">
+            <a href="pdf/A la bastoche.pdf" target="_blank">
+              <img src="img/alabastochethumb.jpg" alt="" class="image img-thumbnail">
+                <div class="lolli">
+                  <div class="image-text">Metadata Analysis</div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-8">
+            <table class="table table-bordered">
+              <tbody>
+                  <tr>
+                    <th scope="row">Title</th>
+                    <td>A la bastoche</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Resource link</th>
+                    <td><a href="https://musicbrainz.org/recording/b590284a-15c5-46a2-a9a8-808f543cf03b" target="_blank">LINK</a></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Object type</th>
+                    <td>Music recording</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Provider</th>
+                    <td>MusicBrainz</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Schema</th>
+                    <td>MMD</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Metadata Analysis</th>
+                    <td>Hover on the image or <a href="pdf/A la bastoche.pdf">HERE</a></td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+      </div>
+
+      <div class="row top-buffer">
+        <div class="col-md-4 puppi">
+            <a href="pdf/Au revoir M.Grock.pdf" target="_blank">
+              <img src="img/mistergrockthumb.jpg" alt="" class="image img-thumbnail">
+                <div class="lolli">
+                  <div class="image-text">Metadata Analysis</div>
+                </div>
+            </a>
+        </div>
+      <div class="col-md-8">
+          <table class="table table-bordered">
+            <tbody>
+                <tr>
+                  <th scope="row">Title</th>
+                  <td>Au-revoir M. Grock</td>
+                </tr>
+                <tr>
+                  <th scope="row">Resource link</th>
+                  <td><a href="https://www.imdb.com/title/tt0041136/" target="_blank">LINK</a></td>
+                </tr>
+                <tr>
+                  <th scope="row">Object type</th>
+                  <td>Video</td>
+                </tr>
+                <tr>
+                  <th scope="row">Provider</th>
+                  <td>IMDb</td>
+                </tr>
+                <tr>
+                  <th scope="row" rowspan="2">Schema</th>
+                  <td>SOMA</td>
+                </tr>
+                <tr>
+                  <td>CM</td>
+                </tr>
+                <tr>
+                  <th scope="row">Metadata Analysis</th>
+                  <td>Hover on the image or <a href="pdf/Au revoir M.Grock.pdf">HERE</a></td>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+      </div>
+
+      <div class="row top-buffer">
+        <div class="col-md-4 puppi">
+            <a href="pdf/Cinegiornale.pdf" target="_blank">
+              <img src="img/milanoricordothumb.jpg" alt="" class="image img-thumbnail">
+                <div class="lolli">
+                  <div class="image-text">Metadata Analysis</div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-8">
+            <table class="table table-bordered">
+              <tbody>
+                  <tr>
+                    <th scope="row">Title</th>
+                    <td>Milano - Ricordo di Grock</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Resource link</th>
+                    <td><a href="https://www.europeana.eu/portal/it/record/2051914/data_euscreenXL_IL5000060098.html?q=grock" target="_blank">LINK</a></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Object type</th>
+                    <td>Newsreel</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Provider</th>
+                    <td>Europeana</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Schema</th>
+                    <td>EDM</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Metadata Analysis</th>
+                    <td>Hover on the image or <a href="pdf/Cinegiornale.pdf">HERE</a></td>
+                  </tr>
+                </tbody>
+              </table>
+          </div>
+        </div>
+
+      <div class="row top-buffer">
+        <div class="col-md-4 puppi">
+            <a href="pdf/Portraitseries.pdf" target="_blank">
+              <img src="img/portraitseriethumb.jpg" alt="" class="image img-thumbnail">
+                <div class="lolli">
+                  <div class="image-text">Metadata Analysis</div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-8">
+            <table class="table table-bordered">
+              <tbody>
+                  <tr>
+                    <th scope="row">Title</th>
+                    <td>Portraitserie Grock</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Resource link</th>
+                    <td><a href="https://www.europeana.eu/portal/it/record/2048418/item_MSA2QAMPAC2JROQ7MHQX3M43QOIOE2EM.html?q=grock" target="_blank">LINK</a></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Object type</th>
+                    <td>Portraitserie</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Provider</th>
+                    <td>Europeana</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Schema</th>
+                    <td>EDM</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Metadata Analysis</th>
+                    <td>Hover on the image or <a href="pdf/Portraitseries.pdf">HERE</a></td>
+                  </tr>
+                </tbody>
+              </table>
+          </div>
+      </div>
+      <div class="row top-buffer">
+        <div class="col-md-4 puppi">
+            <a href="pdf/Villa Grock.pdf" target="_blank">
+              <img src="img/villathumb.jpeg" alt="" class="image img-thumbnail">
+                <div class="lolli">
+                  <div class="image-text">Metadata Analysis</div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-8">
+            <table class="table table-bordered">
+              <tbody>
+                  <tr>
+                    <th scope="row">Title</th>
+                    <td>Villa Grock</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Resource link</th>
+                    <td><a href="https://www.europeana.eu/portal/it/record/92034/GVNRC_SFA03_SFA022001138.html?q=Charles+A" target="_blank">LINK</a></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Object type</th>
+                    <td>Photograph</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Provider</th>
+                    <td>Europeana</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Schema</th>
+                    <td>EDM</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Metadata Analysis</th>
+                    <td>Hover on the image or <a href="pdf/Villa Grock.pdf">HERE</a></td>
+                  </tr>
+                </tbody>
+              </table>
+          </div>
+      </div>
+      <div class="row top-buffer">
+        <div class="col-md-4 puppi">
+            <a href="pdf/Self-portrait.pdf" target="_blank">
+              <img src="img/autoritrattothumb.jpg" alt="" class="image img-thumbnail">
+                <div class="lolli">
+                  <div class="image-text">Metadata Analysis</div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-8">
+            <table class="table table-bordered">
+              <tbody>
+                  <tr>
+                    <th scope="row">Title</th>
+                    <td>Autoritratto di Adrian Wettach Grock</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Resource link</th>
+                    <td><a href="http://www.culturaitalia.it/opencms/viewItem.jsp?language=en&case=&id=oai%3Apolomuseale.firenze.it%3A1890%3A10370" target="_blank">LINK</a></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Object type</th>
+                    <td>Artwork</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Provider</th>
+                    <td>Cultura Italia</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Schema</th>
+                    <td>PICO</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Metadata Analysis</th>
+                    <td>Hover on the image or <a href="pdf/Self-portrait.pdf">HERE</a></td>
+                  </tr>
+                </tbody>
+              </table>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Alignment -->
+  <section id="alignment" class="home-section bg-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>Metadata Alignment</h2>
+            <div class="heading-line"></div>
+            <p>Mapping of metadata elements highlighted during the analysis phase.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 top-buffer">
+          <div class="card">
+            <div class="card-body">
+                <button type="button">
+                    <a href="pdf/alignment.pdf" target="_blank" class="btn">Alignment Table</a>
+                </button>
+              <div class="top-buffer">
+              <p class="card-text">We defined the alignment between the different used standards for metadata (related to people, place,
+                  date and concepts) by asking ourselves a series of questions related to such categories and by
+                  selecting the metadata elements we deemed to be more relevant for our model.</p>
+              <p class="card-text">The questions we asked ourselves during the process of metadata mapping focused on the roles of
+                people involved with the creation, distribution and conservation of the item. Regarding date and place,
+                we chose not to delve too deep since it is information that our model will focus on only marginally.
+                With regards to concepts, we chose to focus on general ideas related to some object properties, such as the title and the format.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-text">
+                <table class="table table-bordered">
+                  <caption>Table 1. Series of questions we asked ourselves in order to identify the metadata mostly interesting to us.</caption>
+                  <thead>
+                    <th scope="col">Question</th>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Who is the creator of the item?</td>
+                    </tr>
+                    <tr>
+                      <td>Who contributed to the item's creation?</td>
+                    </tr>
+                    <tr>
+                      <td>Who is the distributor of the item?</td>
+                    </tr>
+                    <tr>  
+                      <td>Who is the subject of the item?</td>
+                    </tr>
+                    <tr>  
+                      <td>Who is physically owning the item?</td>
+                    </tr>
+                    <tr>  
+                      <td>Who owns the intellectual property rights of the item?</td>
+                    </tr>
+                    <tr>  
+                      <td>When was the item created?</td>
+                    </tr>
+                    <tr>  
+                      <td>Where was the item created?</td>
+                    </tr>
+                    <tr>    
+                      <td>What is the title of the item?</td>
+                    </tr>
+                    <tr>    
+                      <td>What is the content of the item?</td>
+                    </tr>
+                    <tr>    
+                      <td>What is the format of the item?</td>
+                    </tr>
+                    <tr>    
+                      <td>What is the alias of the person?</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Theoretical model -->
+  <section id="theoretical" class="home-section bg-gray">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>Theoretical Model</h2>
+            <div class="heading-line"></div>
+            <p>Creation of a theoretical framework, modeled by exploiting FRBR conceptual structure.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <p>
+          We decided to base our theoretical model on the FRBR structure. What we did, for each object, was to conceptually treat it from the
+          point of view of all the FRBR Group 1 entities at once and to insert each metadatum we deemed to be relevant to our task into its 
+          respective entity slot (either work, manifestation, expression or item). In this way, we were allowed to give a distinct and clear
+          answer to each question we developed during the alignment phase.
+        </p>
+      </div>
+      <div class="row top-buffer">
+        <div class="col-md-12">
+          <img src="img/theoreticalmodel.png" class="img-responsive center-block"/>
+          <div class="caption">Figure 3. In our theoretical model each metadatum is attached to the FRBR entity we deemed to be most 
+            appropriate.
+          </div>
+        </div>
+      </div>
+      <div class="row top-buffer">
+        <p>
+          We then applied this theoretical model to three of our objects:
+        </p>
+      </div>
+
+      <div class="row top-buffer">
+        <div class="card col-md-4 puppi">
+          <a href="pdf/M.T. - Au-revoir Paree.pdf" target="_blank">
+            <img class="card-img-top image img-thumbnail" src="img/aurevoirpareethumb.jpg" alt="">
+              <div class="lolli">
+                <div class="image-text">Theoretical Model</div>
+              </div>
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Au-revoir Paree</h5>
+          </div>
+        </div>
+        <div class="card col-md-4 puppi">
+          <a href="pdf/M.T. - Autoritratto.pdf" target="_blank">
+            <img class="card-img-top image img-thumbnail" src="img/autoritrattothumb.jpg" alt="">
+              <div class="lolli">
+                <div class="image-text">Theoretical Model</div>
+              </div>
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Autoritratto</h5>
+          </div>
+        </div>
+        <div class="card col-md-4 puppi">
+          <a href="pdf/M.T. - La mia carriera di clown.pdf" target="_blank">
+            <img class="card-img-top image img-thumbnail" src="img/vitadaclownthumb.jpg" alt="">
+              <div class="lolli">
+                <div class="image-text">Theoretical Model</div>
+              </div>
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">La mia carriera di clown</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Conceptual model -->
+  <section id="conceptual" class="home-section bg-white">
+    <div class="container">
+      <div class="row">
+          <div class="col-md-offset-2 col-md-8">
+              <div class="section-heading">
+                <h2>Conceptual Model</h2>
+                <div class="heading-line"></div>
+                <p>Creation of a conceptual model by reusing other existing models. </p>
+              </div>
+          </div>
+      </div>
+      <div class="row">
+        <p>
+          Starting from the E/R model, the metadata alignment and the theoretical model, the next step was to create an actual conceptual
+          model able to adequately describe the data at our disposal.
+        </p>
+      </div>
+      <div class="row top-buffer">
+          <div class="col-md-4 centered1">
+            <p>With regard to the date format, we chose to use either the DMY format (in case we are dealing with a precisely defined date) or 
+                xsd:gYear (in case we are dealing with a vaguely defined date, without a precise day and/or month of that year).
+            </p>
+          </div>
+          <div class="col-md-8">
+            <table class="table table-bordered">
+              <caption>Table 2. Conceptual model for Dates.</caption>
+              <tbody>
+                <tr>
+                  <td><b>DD/MM/YYYY</b></td>
+                  <td>W3 Consortium</td>
+                </tr>
+                <tr>
+                  <td><b>xsd:gYear</b></td>
+                  <td>RELAX NG</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+      </div>
+      <div class="row top-buffer">
+          <div class="col-md-8">
+              <table class="table table-bordered">
+                <caption>Table 3. Conceptual model for People.</caption>
+                <thead>
+                  <th scope="col">Question</th>
+                  <th scope="col">Property</th>
+                  <th scope="col">Schema</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>What is the person's name?</td>
+                    <td><b>person:birthName</b></td>
+                    <td>Core Person Vocabulary</td>
+                  </tr>
+                  <tr>
+                    <td>What is the person's alias? (optional)</td>
+                    <td><b>poder:alias</b></td>
+                    <td>Poder Vocabulary</td>
+                  </tr>
+                  <tr>
+                    <td>Where was the person born?</td>
+                    <td><b>person:placeOfBirth</b></td>
+                    <td>Core Person Vocabulary</td>
+                  </tr>
+                  <tr>
+                      <td>When was the person born?</td>
+                      <td><b>core:dateOfBirth</b></td>
+                      <td>Core Concept Ontology</td>
+                  </tr>
+                  <tr>
+                      <td>Where did the person die? (optional)</td>
+                      <td><b>person:placeOfDeath</b></td>
+                      <td>Core Person Vocabulary</td>
+                  </tr>
+                  <tr>
+                      <td>When did the person die? (optional)</td>
+                      <td><b>core:dateOfDeath</b></td>
+                      <td>Core Concept Ontology</td>
+                  </tr>
+                  <tr>
+                      <td>What is the person's job/occupation?</td>
+                      <td><b>gvp:aat2312_perform</b></td>
+                      <td>Getty Vocabulary Program ontology</td>
+                  </tr>
+                  <tr>
+                      <td>What is an item related to the person? (optional)</td>
+                      <td><b>dcterms:relation</b></td>
+                      <td>Dublin Core</td>
+                  </tr>
+                  <tr>
+                      <td>Who does the person know? (optional)</td>
+                      <td><b>foaf:knows</b></td>
+                      <td>Friend Of A Friend</td>
+                  </tr>
+                </tbody>
+              </table>
+          </div>
+          <div class="col-md-4 centered">
+            <p>
+              With regards to people, we decided to use the Core 
+              Person Vocabulary to describe the identity of
+              an individual, enhanced with properties from Friend
+              Of A Friend, Poder Vocabulary, Dublin 
+              Core, Getty Vocabulary Program ontology and Core Concepts Ontology.
+              As for the last two properties dcterms:relation and
+              foaf:knows, we are aware of the vagueness of them 
+              (especially that of the former, since it is not specified
+              whether the person is the item's creator, producer, 
+              distributor, etc...), but we were mostly interested in 
+              expressing some kind of relation with at least a person
+              and, possibly, a cultural object of some sort. An interesting
+              future development of this model could consist in implementing
+              a more detailed system of relationships at this level, from
+              the point of view of both objects and people related to the
+              person.
+            </p>
+          </div>
+      </div>
+      <div class="row top-buffer">
+        <div class="col-md-4 centered1">
+          <p>
+            With regards to places, we decided to keep the 
+            description to a minimum that would still be useful 
+            to us. We used the Location Core Vocabulary
+            to describe a specific place in terms of its name, and the 
+            GeoNames ontology to add information about the
+            country in which that place is located. 
+          </p>
+        </div>
+        <div class="col-md-8">
+              <table class="table table-bordered">
+                <caption>Table 4. Conceptual model for Places.</caption>
+                <thead>
+                    <th scope="col">Question</th>
+                    <th scope="col">Property</th>
+                    <th scope="col">Schema</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>What is the name of the place?</td>
+                    <td><b>locn:geographicName</b></td>
+                    <td>Location Core Vocabulary</td>
+                  </tr>
+                  <tr>
+                      <td>What is the country in which the place is located?</td>
+                      <td><b>gn:countryCode</b></td>
+                      <td>GeoNames</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+      </div>
+      <div class="row top-buffer">
+        <div class="col-md-8">
+              <table class="table table-bordered">
+                <caption>Table 5. Conceptual model for Concepts.</caption>
+                  <thead>
+                      <th scope="col">Question</th>
+                      <th scope="col">Property</th>
+                      <th scope="col">Schema</th>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>What is the occupation?</td>
+                      <td><b>rdfs:label</b></td>
+                      <td>RDFS</td>
+                    </tr>
+                    <tr>
+                        <td>How could it be described by exploiting an uncontrolled description?</td>
+                        <td><b>rdfs:comment</b></td>
+                        <td>RDFS</td>
+                    </tr>
+                    <tr>
+                        <td>How could it be described by exploiting a controlled vocabulary?</td>
+                        <td><b>dcterms:subject</b></td>
+                        <td>Dublin Core</td>
+                    </tr>
+                    <tr>
+                        <td>Who performs this occupation?</td>
+                        <td><b>gvp:aat2311_performed_by</b></td>
+                        <td>Getty Vocabulary Program ontology</td>
+                    </tr>
+                  </tbody>
+                </table>
+          </div>
+          <div class="col-md-4 centered">
+            <p>
+              With regards to concepts, we decided to focus
+              on people's occupations, which we managed to describe
+              by using a mixture of general properties of RDF Schema
+              and Dublin Core and the Getty Vocabulary Program ontology's 
+              "aat2311_performed_by" property (inversely related to "aat2312_perform").
+              Another interesting development could consist in implementing a more
+              sophisticated and complex model in order to be able to describe concepts, other than occupation, related 
+              to people and their doing.
+            </p>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="description" class="home-section bg-gray">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-offset-2 col-md-8">
+            <div class="section-heading">
+              <h2>Data Description</h2>
+              <div class="heading-line"></div>
+              <p>
+                Natural language tabulated description of some toy data we chose for each category (People, Places, Concepts).</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div>
+                <h3>People</h3>
+            </div>
+            <table class="table table-bordered">
+              <caption>Table 6. Natural language description of Charles Adrien Wettach.</caption>
+              <thead>
+                <th scope="col">Subject</th>
+                <th scope="col">Property</th>
+                <th scope="col">Object</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="13">[Charles Adrien Wettach]</td>
+                </tr>
+                <tr>
+                  <td>person:birthName</td>
+                  <td>"Charles Adrien Wettach"</td>
+                </tr>
+                <tr>
+                  <td>poder:alias</td>
+                  <td>"Grock"</td>
+                </tr>
+                <tr>
+                    <td>person:placeOfBirth</td>
+                    <td>[Lovelesse]</td>
+                </tr>
+                <tr>
+                    <td>core:dateOfBirth</td>
+                    <td>10/01/1880</td>
+                </tr>
+                <tr>
+                    <td>person:placeOfDeath</td>
+                    <td>[Imperia]</td>
+                </tr>
+                <tr>
+                    <td>core:dateOfDeath</td>
+                    <td>14/07/1959</td>
+                </tr>
+                <tr>
+                    <td>gvp:aat2312_perform</td>
+                    <td>[Clown]</td>
+                </tr>
+                <tr>
+                  <td>gvp:aat2312_perform</td>
+                  <td>[Illustrator]</td>
+                </tr>
+                <tr>
+                  <td>gvp:aat2312_perform</td>
+                  <td>[Actor]</td>
+                </tr>
+                <tr>
+                  <td>gvp:aat2312_perform</td>
+                  <td>[Musician]</td>
+                </tr>
+                <tr>
+                    <td>dcterms:relation</td>
+                    <td>[Autoritratto]</td>
+                </tr>
+                <tr>
+                    <td>foaf:knows</td>
+                    <td>[Suzy Prim]</td>
+                  </tr>
+              </tbody>
+            </table>
+            <table class="table table-bordered">
+              <caption>Table 7. Natural language description of Suzanne Mariette Arduini.</caption>
+                <thead>
+                  <th scope="col">Subject</th>
+                  <th scope="col">Property</th>
+                  <th scope="col">Object</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td rowspan="11">[Suzanne Mariette Arduini]</td>
+                  </tr>
+                  <tr>
+                    <td>person:birthName</td>
+                    <td>"Suzanne Mariette Arduini"</td>
+                  </tr>
+                  <tr>
+                    <td>poder:alias</td>
+                    <td>"Suzy Prim"</td>
+                  </tr>
+                  <tr>
+                      <td>person:placeOfBirth</td>
+                      <td>[Paris]</td>
+                  </tr>
+                  <tr>
+                      <td>core:dateOfBirth</td>
+                      <td>11/10/1896</td>
+                  </tr>
+                  <tr>
+                      <td>person:placeOfDeath</td>
+                      <td>[Boulogne-Billancourt]</td>
+                  </tr>
+                  <tr>
+                      <td>core:dateOfDeath</td>
+                      <td>07/07/1991</td>
+                  </tr>
+                  <tr>
+                      <td>gvp:aat2312_perform</td>
+                      <td>[Actor]</td>
+                  </tr>
+                  <tr>
+                      <td>gvp:aat2312_perform</td>
+                      <td>[Producer]</td>
+                  </tr>
+                  <tr>
+                      <td>dcterms:relation</td>
+                      <td>[Au-revoir M. Grock]</td>
+                  </tr>
+                  <tr>
+                      <td>foaf:knows</td>
+                      <td>[Charles Adrien Wettach]</td>
+                  </tr>
+                </tbody>
+            </table>
+            <table class="table table-bordered">
+                <caption>Table 8. Natural language description of Jon Davison.</caption>
+                <thead>
+                  <th scope="col">Subject</th>
+                  <th scope="col">Property</th>
+                  <th scope="col">Object</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td rowspan="10">[Jon Davison]</td>
+                  </tr>
+                  <tr>
+                    <td>person:birthName</td>
+                    <td>"Jon Davison"</td>
+                  </tr>
+                  <tr>
+                      <td>person:placeOfBirth</td>
+                      <td>[Bexley]</td>
+                  </tr>
+                  <tr>
+                      <td>core:dateOfBirth</td>
+                      <td>1962</td>
+                  </tr>
+                  <tr>
+                      <td>gvp:aat2312_perform</td>
+                      <td>[Teacher]</td>
+                  </tr>
+                  <tr>
+                      <td>gvp:aat2312_perform</td>
+                      <td>[Writer]</td>
+                  </tr>
+                  <tr>
+                    <td>gvp:aat2312_perform</td>
+                    <td>[Clown]</td>
+                  </tr>
+                  <tr>
+                    <td>gvp:aat2312_perform</td>
+                    <td>[Musician]</td>
+                  </tr>
+                  <tr>
+                      <td>dcterms:relation</td>
+                      <td>[Clown: readings in theatre practice]</td>
+                  </tr>
+                </tbody>
+              </table>
+          </div>
+        </div>
+        <div class="row top-buffer">
+          <div class="col-md-12">
+            <div>
+              <h3>Places</h3>
+            </div>
+              <table class="table table-bordered">
+                  <caption>Table 9. Natural language description of Florence.</caption>
+                <thead>
+                  <th scope="col">Subject</th>
+                  <th scope="col">Property</th>
+                  <th scope="col">Object</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td rowspan="3">[Florence]</td>
+                  </tr>
+                  <tr>
+                    <td>locn:geographicName</td>
+                    <td>"Firenze"@it</td>
+                  </tr>
+                  <tr>
+                    <td>gn:countryCode</td>
+                    <td>"IT"</td>
+                  </tr>
+                </tbody>
+              </table>
+              <table class="table table-bordered">
+                <caption>Table 10. Natural language description of Paris.</caption>
+                  <thead>
+                    <th scope="col">Subject</th>
+                    <th scope="col">Property</th>
+                    <th scope="col">Object</th>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td rowspan="3">[Paris]</td>
+                    </tr>
+                    <tr>
+                      <td>locn:geographicName</td>
+                      <td>"Paris"@fr</td>
+                    </tr>
+                    <tr>
+                      <td>gn:countryCode</td>
+                      <td>"FR"</td>
+                    </tr>
+                  </tbody>
+              </table>
+              <table class="table table-bordered">
+                <caption>Table 11. Natural language description of Basingstoke.</caption>
+                  <thead>
+                    <th scope="col">Subject</th>
+                    <th scope="col">Property</th>
+                    <th scope="col">Object</th>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td rowspan="3">[Basingstoke]</td>
+                    </tr>
+                    <tr>
+                      <td>locn:geographicName</td>
+                      <td>"Basingstoke"@en</td>
+                    </tr>
+                    <tr>
+                      <td>gn:countryCode</td>
+                      <td>"GB"</td>
+                    </tr>
+                  </tbody>
+              </table>
+          </div>
+        </div>
+        <div class="row top-buffer">
+          <div class="col-md-12">
+            <div>
+              <h3>Concepts</h3>
+            </div>
+              <table class="table table-bordered">
+                <caption>Table 12. Natural language description of Actor.</caption>
+                <thead>
+                  <th scope="col">Subject</th>
+                  <th scope="col">Property</th>
+                  <th scope="col">Object</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td rowspan="6">[Actor]</td>
+                  </tr>
+                  <tr>
+                    <td>rdfs:label</td>
+                    <td>"Actor"@en</td>
+                  </tr>
+                  <tr>
+                    <td>rdfs:comment</td>
+                    <td>"An actor (or actress for female) is one who portrays a character in a performance. The actor performs "in the flesh" in the traditional medium of the theatre, and/or in modern mediums such as film, radio, and television. The analogous Greek term is ὑποκριτής (hupokritḗs), literally "one who answers". The actor's interpretation of their role pertains to the role played, whether based on a real person or fictional character. Interpretation occurs even when the actor is "playing themselves", as in some forms of experimental performance art, or, more commonly; to act, is to create, a character in performance."@en</td>
+                  </tr>
+                  <tr>
+                    <td>dcterms:subject</td>
+                    <td>[Entertainment_occupations]</td>
+                  </tr>
+                  <tr>
+                    <td>gvp:aat2311_performed_by</td>
+                    <td>[Charles Adrien Wettach]</td>
+                  </tr>
+                  <tr>
+                    <td>gvp:aat2311_performed_by</td>
+                    <td>[Suzanne Mariette Arduini]</td>
+                  </tr>
+                </tbody>
+              </table>
+              <table class="table table-bordered">
+                <caption>Table 13. Natural language description of Illustrator.</caption>
+                <thead>
+                  <th scope="col">Subject</th>
+                  <th scope="col">Property</th>
+                  <th scope="col">Object</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td rowspan="6">[Illustrator]</td>
+                  </tr>
+                  <tr>
+                    <td>rdfs:label</td>
+                    <td>"Illustrator"@en</td>
+                  </tr>
+                  <tr>
+                    <td>rdfs:comment</td>
+                    <td>"An illustrator is an artist who specializes in enhancing writing or elucidating concepts by providing a visual representation that corresponds to the content of the associated text or idea. The illustration may be intended to clarify complicated concepts or objects that are difficult to describe textually, which is the reason illustrations are often found in children's books."@en</td>
+                  </tr>
+                  <tr>
+                    <td>dcterms:subject</td>
+                    <td>[Arts_occupations]</td>
+                  </tr>
+                  <tr>
+                    <td>dcterms:subject</td>
+                    <td>[Aesthetics]</td>
+                  </tr>
+                  <tr>
+                    <td>gvp:aat2311_performed_by</td>
+                    <td>[Charles Adrien Wettach]</td>
+                  </tr>
+                </tbody>
+              </table>
+              <table class="table table-bordered">
+                <caption>Table 14. Natural language description of Clown.</caption>
+                <thead>
+                  <th scope="col">Subject</th>
+                  <th scope="col">Property</th>
+                  <th scope="col">Object</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td rowspan="6">[Clown]</td>
+                  </tr>
+                  <tr>
+                    <td>rdfs:label</td>
+                    <td>"Clown"@en</td>
+                  </tr>
+                  <tr>
+                    <td>rdfs:comment</td>
+                    <td>"Clowns are comic performers who employ slapstick or similar types of physical comedy, often in a mime style."@en</td>
+                  </tr>
+                  <tr>
+                    <td>dcterms:subject</td>
+                    <td>[Comedy]</td>
+                  </tr>
+                  <tr>
+                    <td>dcterms:subject</td>
+                    <td>[Performing_arts]</td>
+                  </tr>
+                  <tr>
+                    <td>gvp:aat2311_performed_by</td>
+                    <td>[Charles Adrien Wettach]</td>
+                  </tr>
+                </tbody>
+              </table>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- RDF -->
+  <section id="rdf" class="home-section bg-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>URI, RDF and Semantic Connections</h2>
+            <div class="heading-line"></div>
+            <p>URI design and RDF description, enriched with semantic connections, for three instances we chose (one for each category).</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8">
+          <table class="table table-bordered">
+            <caption>Table 15. The three data instances we chose for URI and RDF modeling.</caption>
+            <thead>
+              <th scope="col">Item</th>
+              <th scope="col">Person</th>
+              <th scope="col">Place</th>
+              <th scope="col">Concept</th>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Au-revoir M. Grock</th>
+                <td class="bg-danger">Suzanne Mariette Arduini</td>
+                <td>Paris</td>
+                <td>Actor</td>
+              </tr>
+              <tr>
+                <th scope="row">Autoritratto</th>
+                <td>Charles Adrien Wettach</td>
+                <td class="bg-danger">Florence</td>
+                <td>Illustrator</td>
+              </tr>
+              <tr>
+                <th scope="row">Clown: readings in theatre practice</th>
+                <td>Jon Davison</td>
+                <td>Basingstoke</td>
+                <td class="bg-danger">Clown</td>
+              </tr>              
+            </tbody>
+          </table>
+        </div>
+        <div class="col-md-4 centered">
+            <p>We created three URIs for three instances (Suzanne Mariette Arduini
+                for People, Florence for Places and Clown for Concepts) and
+              described them by using the RDF Turtle serialization.</p>
+        </div>
+      </div>
+      <div class="row top-buffer">
+        <h3>Data Instances</h3>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 puppi">
+              <div class="box-team wow bounceInUp" data-wow-delay="0.1s">
+                <a href="https://grockproject.github.io/suzanne-mariette-arduini.ttl" target="_blank">
+                <img src="img/suzyprimicon.jpg" alt="" class="img-circle img-responsive center-block image" width="250" height="250" />
+                  <div class="lolli">
+                    <div class="image-text">RDF Turtle</div>
+                  </div>
+                </a>
+                <h6>Suzanne Mariette Arduini</h6>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 puppi">
+                <div class="box-team wow bounceInUp" data-wow-delay="0.3s">
+                  <a href="http://grockproject.github.io/florence.ttl" target="_blank">
+                  <img src="img/florenceicon.jpg" alt="" class="img-circle img-responsive center-block image" width="250" height="250" />
+                    <div class="lolli">
+                      <div class="image-text">RDF Turtle</div>
+                    </div>
+                  </a>
+                  <h6>Florence</h6>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 puppi">
+                  <div class="box-team wow bounceInUp" data-wow-delay="0.5s">
+                    <a href="http://grockproject.github.io/clown.ttl" target="_blank">
+                    <img src="img/clownicon.jpg" alt="" class="img-circle img-responsive center-block image" width="250" height="250" />
+                      <div class="lolli">
+                        <div class="image-text">RDF Turtle</div>
+                      </div>
+                    </a>
+                    <h6>Clown</h6>
+                  </div>
+                </div>
+      </div>
+      <div class="row top-buffer">
+        <div class="col-md-4 centered2">
+          <p>Table 16 shows the semantic relations we added to our RDF description in order to describe some connections
+            our data could have with other resources that are effectively implemented on the Web in Linked Open Data. We 
+            used very simple yet meaningful relations (such as similarity, difference, hyponymy, meronymy, hyperonymy).
+          </p>
+        </div>
+        <div class="col-md-8">
+        <table class="table table-bordered">
+          <caption>Table 16. The semantic relations we selected to create meaningful relations between some resources 
+            already existing on the Web.</caption>
+          <thead>
+            <th scope="col">Relation</th>
+            <th scope="col">Property</th>
+            <th scope="col">Schema</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Similarity</td>
+              <td>owl:sameAs</td>
+              <td>OWL</td>
+            </tr>
+            <tr>
+              <td>Difference</td>
+              <td>owl:differentFrom</td>
+              <td>OWL</td>
+            </tr>
+            <tr>
+              <td>Hyponymy</td>
+              <td>wn:hyponymOf</td>
+              <td>WordNet</td>
+            </tr>
+            <tr>
+              <td>Meronymy</td>
+              <td>wn:meronymOf</td>
+              <td>WordNet</td>
+            </tr>
+            <tr>
+              <td>Hyperonymy</td>
+              <td>wn:hyperonymOf</td>
+              <td>WordNet</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p>Copyright &copy; Sebastian Barzaghi, Carolina Salluzzi, Alessandra Auddino.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- js -->
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/jquery.scrollTo.min.js"></script>
+  <script src="js/jquery.nav.js"></script>
+  <script src="js/modernizr.custom.js"></script>
+  <script src="js/grid.js"></script>
+  <script src="js/stellar.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Custom Javascript File -->
+  <script src="js/custom.js"></script>
+
+</body>
+
+</html>
